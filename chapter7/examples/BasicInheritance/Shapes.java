@@ -1,4 +1,4 @@
-package examples;
+package examples.BasicInheritance;
 
 // Simple class hiearchy
 
@@ -60,6 +60,7 @@ public class Shapes {
         t2.style = "outlined";
 
         System.out.println("Info for t1: ");
+
         t1.showStyle();
         t1.showDim();
         System.out.println("Area is " + t1.area());
